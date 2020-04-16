@@ -1,0 +1,78 @@
+
+body, html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 1.4em;
+}
+
+h3 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #111;
+}
+
+.conteudo {
+	text-align: justify;
+	color: #777;
+	background-color: #fff;
+	padding: 50px 80px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(../imagens-kms/kms-3d.jpg);
+	opacity: 0.9;
+}
+
+.caixa2 {
+	background-image: url(../imagens-kms/arbitragem.jpg);
+}
+
+.caixa3 {
+	background-image: url(../imagens-kms/evento-esportivo1.jpeg);
+}
+
+.caixa4 {
+	background-image: url(../imagens-kms/resultados-online.jpeg);
+}
+
+.caixa5 {
+	background-image: url(../imagens-kms/hoverboard1.jpg);
+}
+
+.caixa6 {
+	background-image: url(../imagens-kms/hoverboard2.jpg);
+}
+
+.titulo-caixa {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.titulo-caixa span.titulo {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
